@@ -5,4 +5,5 @@ package in.silive.tourlog.Utils;
  */
 
 public class Config {
+    public static final String API_KEY = "";
 }
