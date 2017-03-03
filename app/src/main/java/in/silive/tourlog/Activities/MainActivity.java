@@ -1,7 +1,7 @@
 package in.silive.tourlog.Activities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 import android.widget.ListView;
 
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        user_location = (EditText)findViewById(R.id.user_location);
-        list_places = (ListView)findViewById(R.id.list_places);
+        user_location = (EditText) findViewById(R.id.user_location);
+        list_places = (ListView) findViewById(R.id.list_places);
     }
 }
